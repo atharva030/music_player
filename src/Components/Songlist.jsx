@@ -9,15 +9,8 @@ import { IoAddCircleSharp, IoLogoFacebook } from "react-icons/io5";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 const Songlist = ({ handlePlaylist,handleFavorites }) => {
-  const [isColor, setIsColor] = useState(false);
 
-  const handleMouseOver = () => {
-    
-  };
 
-  const handleMouseOut = () => {
-    setIsColor(false);
-  };
   var settings = {
     dots: true,
     infinite: false,
@@ -119,7 +112,6 @@ const Songlist = ({ handlePlaylist,handleFavorites }) => {
   const handleClickonplayreleased = (i) => {
     let img = released[i].images.background;
     let tit = released[i].title;
-    setIsColor(true);
     handlePlaylist(tit, img);
   };
   const handleClickonfavreleased = (i) => {
@@ -156,7 +148,7 @@ const Songlist = ({ handlePlaylist,handleFavorites }) => {
             <IoIosArrowForward color="black" />
           </div>
           <Slider {...settings}>
-            {released.map((released, i,iscolor) => {
+            {released.map((released, i) => {
               return (
                 <div className="img-container" key={i}>
                   <img src={released.images.background} className="card-img" />
@@ -202,7 +194,7 @@ const Songlist = ({ handlePlaylist,handleFavorites }) => {
               <div className="img-container" key={i}>
                 <img src={featured.images.background} className="card-img" />
                 <div className="text-container">
-                  <div className="fav">
+                  <div className="fav" >
                     <MdFavorite size={30} onClick={() => handleClickonfavfeatured(i)}
                         title={i} />
                   </div>
