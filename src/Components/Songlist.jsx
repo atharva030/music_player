@@ -161,7 +161,7 @@ const Songlist = ({ handlePlaylist,handleFavorites }) => {
                 <div className="img-container" key={i}>
                   <img src={released.images.background} className="card-img" />
                   <div className="text-container">
-                    <div className="fav" style={{color:`${iscolor===false?"green":" black"}`}}>
+                    <div className="fav" >
                     
                       <MdFavorite size={30} onClick={() => handleClickonfavreleased(i)}
                         title={i} />

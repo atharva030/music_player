@@ -18,11 +18,12 @@
     white-space: initial;/* paragraph to one line */
     overflow:hidden; /* older browsers */
   }
-  .fav{
+  /* .fav{
     color: black;
-  }
+  } */
   .fav:hover{
-  color: green; transition: 0.5s;
+  color: green; 
+  transition: 0.5s;
   cursor: pointer;
   
   }
