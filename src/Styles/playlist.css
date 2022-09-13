@@ -1,0 +1,35 @@
+
+ .play-card-img {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    width: 10rem;
+    border-radius: 12px;
+  }
+  .play-text-container{
+    font-size: 16px;
+    margin: 7px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-overflow: ellipsis; /* will make [...] at the end */
+    width: 164px; /* change to your preferences */
+    white-space: initial;/* paragraph to one line */
+    overflow:hidden; /* older browsers */
+  }
+  .play-fav{
+    color: black;
+  }
+  .play-fav:hover{
+  color: green; transition: 0.5s;
+  cursor: pointer;
+  
+  }
+  .play-img-container{
+    display: inline-block;
+  }
+  h3{
+    margin-top: 0;
+  }
+  

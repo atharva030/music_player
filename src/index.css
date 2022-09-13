@@ -1,13 +1,18 @@
+@import url('http://fonts.cdnfonts.com/css/gotham?styles=17579,17588');
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Gotham Ultra', sans-serif;
+}
+html::-webkit-scrollbar {
+	width:8px;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+html::-webkit-scrollbar-track {
+	background: white;
 }
+
+html::-webkit-scrollbar-thumb {
+background: rgb(203, 198, 198);
+	border-radius: 1rem;
+}
+

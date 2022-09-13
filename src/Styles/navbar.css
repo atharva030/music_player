@@ -1,0 +1,108 @@
+.flex{
+    display: flex;
+    align-items: center;
+}
+.heading {
+	text-align: center;
+	margin: 0 6rem;
+	font-size: 4rem;
+	padding: 1rem;
+	border-bottom: .1rem solid #fff4;
+	color: #fff;
+}
+
+.heading span {
+	color: #89cfe7;
+}
+
+header {
+	position: fixed;
+	left:-120%;
+    transition: all 0.7s ease-out;
+	top: 0;
+	left: 0;
+	padding: 4rem 0 0 0;
+	z-index: 1;
+	height: 100%;
+	background: #574fd8;
+	text-align: center;
+	display: table-cell;
+	width: 15%;
+	vertical-align: top;
+}
+
+header .user img {
+	height: 18rem;
+	width: 18rem;
+	object-fit: cover;
+	margin-bottom: 1rem;
+	border-color: white;
+	border-radius: 15rem;
+}
+
+header .user .name {
+	font-size: 3.5rem;
+	color: #fff;
+}
+
+header .user .post {
+	font-size: 2rem;
+	color: #eee;
+}
+
+header .navbar {
+	position: fixed;
+}
+
+header .navbar ul {
+	list-style: none;
+	padding: 9rem 3rem;
+    width: 10rem;
+}
+
+header .navbar ul li a {
+	display: block;
+	padding: 1rem;
+    text-decoration: none;
+	margin: 1.5rem 0;
+	color: #b6b6b6;
+	font-size: 16px;
+	border-radius: 5rem;
+}
+
+header .navbar ul li {
+    height: 38px;
+    color: white;
+    cursor: pointer;
+    font-size: 1em;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+header .navbar ul li a:hover {
+    color: white;
+    font-weight: 500;
+    transition: 0.5s;
+}
+
+ input[type=text] {
+	float: left;
+	padding: 6px;
+	border: none;
+	margin-top: 51px;
+	font-size: 17px;
+	width:127px;
+  }
+   .search-btn {
+	float: left;
+	padding: 6px;
+	margin-top: 8px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 17px;
+	border: none;
+	cursor: pointer;
+  }
+  form{
+	padding-left: 10px;
+  }
