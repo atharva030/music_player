@@ -5,6 +5,7 @@ import Playlist from "./Components/Playlist";
 import { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Favorites from "./Components/Favorites";
+import Footer from "./Components/Footer";
 
 function App() {
   //playlist stuff
@@ -58,7 +59,9 @@ function App() {
             />
           </Routes>
         </div>
+      
       </Router>
+      <Footer/>
     </>
   );
 }
