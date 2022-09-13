@@ -211,6 +211,7 @@ const Songlist = ({ handlePlaylist,handleFavorites }) => {
           })}
         </Slider>
       </div>
+      
     </>
   );
 };
